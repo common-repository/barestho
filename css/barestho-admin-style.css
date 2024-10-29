@@ -1,0 +1,200 @@
+.barestho-container {
+    max-width: 1300px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+.barestho-table,
+.barestho-table th,
+.barestho-table td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+}
+
+.barestho-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.barestho-table th {
+    background-color: #252332;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+.barestho-table2,
+.barestho-table2 th,
+.barestho-table2 td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 10px;
+}
+
+.barestho-table2 {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.barestho-table2 th {
+    background-color: #252332;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+.barestho-display-header {
+    background-color: #dc0044;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.barestho-logo-img {
+    width: 150px;
+    margin: 5px 0;
+}
+
+.toggle-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-button input[type="checkbox"] {
+    display: none;
+}
+
+.toggle-button label {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #5fbe8a;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.toggle-button input[type="checkbox"]:checked+label {
+    background-color: #dc0044;
+    color: #fff;
+}
+
+/* Styles pour le contenu du Mode popup */
+.popup-widget-content {
+    display: flex;
+    align-items: center;
+}
+
+.popup-image {
+    width: 300px;
+    padding-top: 10px;
+    padding: 10px;
+}
+
+.popup-text {
+    margin-left: 20px;
+}
+
+#barestho-widget-iframe {
+    height: 500px;
+    width: 360px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.container-preview {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.preview {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 35px;
+    float: none;
+}
+
+.previuw-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Media queries pour la mise en page responsive */
+@media (max-width: 1200px) {
+    .barestho-container {
+        margin-right: 10px;
+    }
+
+    .popup-widget-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .popup-image {
+        margin-bottom: 20px;
+    }
+
+    .popup-text {
+        margin-left: 0;
+    }
+
+    /* Styles pour les tables en version mobile */
+
+    .barestho-table th,
+    .barestho-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .barestho-table th {
+        text-align: left;
+    }
+
+    .barestho-table td {
+        text-align: left;
+    }
+
+    .barestho-table2 th,
+    .barestho-table2 td {
+        display: block;
+        width: 100%;
+    }
+
+    .barestho-table2 th {
+        text-align: left;
+    }
+
+    .barestho-table2 td {
+        text-align: left;
+    }
+
+    .barestho-table2 {
+        width: 100%;
+
+    }
+
+    .container-preview {
+        display: block;
+    }
+
+    .container-logo {
+        display: block;
+    }
+}

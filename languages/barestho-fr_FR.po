@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Barestho Plugin 1.0\n"
+"POT-Creation-Date: 2024-06-14 12:34+0000\n"
+"PO-Revision-Date: 2024-06-14 12:34+0000\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Restaurant ID"
+msgstr "ID de votre restaurant"
+
+msgid "Restaurant Color Code"
+msgstr "Code couleur de votre restaurant"
+
+msgid "How to configure the plugin and display the booking widget on your site?"
+msgstr "Comment configurer le plugin et afficher le widget de réservation sur votre site ?"
+
+msgid "Preview Changes"
+msgstr "Prévisualiser les changements"
+
+msgid "Save Changes"
+msgstr "Sauvegarder les changements"
+
+msgid "Widget Display"
+msgstr "Affichage du widget"
+
+msgid "Toggle mode"
+msgstr "Mode toggle"
+
+msgid "Popup mode"
+msgstr "Mode popup"
+
+msgid "In-page mode"
+msgstr "Mode in-page"
+
+msgid "Create or modify a button."
+msgstr "Créez ou modifiez un bouton."
+
+msgid "Add the barestho.openPopup('id of your restaurant') function to the onclick of your button. Make sure you enter the id of your restaurant, for example ('barestho')."
+msgstr "Ajoutez la fonction barestho.openPopup(‘id de votre restaurant’) sur le onclick de votre bouton. Attention de bien mettre l'id de votre restaurant, par exemple (‘barestho’)."
+
+msgid "Save and check that the button works correctly."
+msgstr "Enregistrez et vérifiez que le bouton ouvre le popup correctement."
+
+msgid "Example:"
+msgstr "Exemple :"
+
+msgid "<code>&lt;button onclick=\"barestho.openPopup()\"&gt;Mon Bouton&lt;/button&gt;</code>"
+msgstr "<code>&lt;button onclick=\"barestho.openPopup()\"&gt;Mon Bouton&lt;/button&gt;</code>"
+
+msgid "Create a \"Custom HTML\" tag."
+msgstr "Créez une balise \"Custom HTML\"."
+
+msgid "Add <code>[barestho_inpage]</code> inside the tag."
+msgstr "Ajoutez <code>[barestho_inpage]</code> dans la balise."
+
+msgid "Check that the widget appears."
+msgstr "Vérifiez que le widget apparaît."
+
+msgid "Restaurant Settings"
+msgstr "Paramètres de votre restaurant"
+
+msgid "Your Restaurant ID"
+msgstr "ID de votre restaurant"
+
+msgid "Barestho Logo Choice"
+msgstr "Choix du logo Barestho"
+
+msgid "Disable mode"
+msgstr "Désactiver"
+
+msgid "Enable mode"
+msgstr "Activer le mode"
+
+msgid "Settings saved."
+msgstr "Paramètres sauvegardés."
+
+msgid "Plugin to display the booking widget."
+msgstr "Plugin pour afficher le widget de réservation."

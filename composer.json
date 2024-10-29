@@ -1,0 +1,30 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "files": ["vendor/autoload.php"]
+    },
+    "scripts": {
+      "build:development": [
+        "mkdir -p dist/barestho",
+        "cp -r * dist/barestho",
+        "cp envs/development.php dist/barestho/env.php",
+        "cd dist/barestho && composer install",
+        "rm -rf dist/barestho/dist",
+        "rm -f dist/barestho/.gitignore dist/barestho/.DS_Store",
+        "cd dist && zip -r barestho.zip barestho",
+        "cd dist && rm -rf barestho"
+      ],
+      "build:production": [
+        "mkdir -p dist/barestho",
+        "cp -r * dist/barestho",
+        "cp envs/production.php dist/barestho/env.php",
+        "cd dist/barestho && composer install",
+        "rm -rf dist/barestho/dist",
+        "rm -f dist/barestho/.gitignore dist/barestho/.DS_Store",
+        "cd dist && zip -r barestho.zip barestho",
+        "cd dist && rm -rf barestho"
+      ]
+    }
+}
